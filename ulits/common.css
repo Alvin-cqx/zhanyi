@@ -1,0 +1,72 @@
+html,
+body,
+div,
+span,
+p,
+input,
+img,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+strong,
+i,
+em {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+input {
+  border: 0 none;
+  outline: 0 none;
+}
+
+img {
+  border: 0 none;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+i {
+  font-style: normal;
+}
+
+body {
+  font: 12px/100% "微软雅黑";
+  background-color: #f6f6f6;
+}
+
+/*.w {*/
+  /*width: 1364px;*/
+  /*margin: 0 auto;*/
+/*}*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}

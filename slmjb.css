@@ -1,0 +1,198 @@
+/*主页背景图*/
+.mainBg{
+  width: 2700px;
+  height: 1000px;
+  position: relative;
+  background: url("images/bg_b67e7f07.jpg") 0 0 no-repeat;
+}
+
+/*网页logo*/
+.mainBg .logo a{
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+/*背景图的地图*/
+.mainBg .bg-map{
+  width: 1928px;
+  height: 1000px;
+  background: url("images/map1-bg.png") 0 0 no-repeat;
+  position: absolute;
+  left: 328px;
+  top: 0;
+}
+/*切换的地图地址*/
+.mainBg .bg-map.active{
+  background: url("images/map2-bg.png") 0 0 no-repeat;
+}
+.mainBg .bg-map .map-site.active{
+  background: url("images/map2-name.png") 0 0 no-repeat;
+}
+
+
+
+/*背景图上面的坐标*/
+.mainBg .bg-map .map-site{
+  position: absolute;
+  width: 1928px;
+  height: 1000px;
+  background: url("images/map1-name.png") 0 0 no-repeat;
+}
+
+
+/*家族的排名*/
+.mainBg .ranke {
+  width: 1052px;
+  height: 1000px;
+  background: url("images/bg_aaa8f5dc.png");
+  position: absolute;
+  left: 1865px;
+  top: 0;
+}
+.mainBg .rankes{
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+.mainBg .ranke1,.mainBg .ranke2{
+  /*background-color: red;*/
+  float: left;
+  width: 234px;
+  height: 47px;
+  margin-right: 80px;
+}
+.mainBg .ranke1 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("images/sprite-9f384d_9f384dd1.png") 0px -47px no-repeat;
+}
+
+.mainBg .ranke2 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("images/sprite-9f384d_9f384dd1.png") 0px -94px no-repeat;
+}
+.mainBg .ranke2:hover a{
+  background: url("images/sprite-9f384d_9f384dd1.png") 0px -141px no-repeat;
+}
+
+
+.mainBg .ranke-seleted{
+  position: absolute;
+  width: 241px;
+  height: 31px;
+  top: 220px;
+  left: 116px;
+  cursor:pointer;
+
+}
+.mainBg .ranke-seleted span{
+  padding-left: 60px;
+  line-height: 31px;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("images/_select_1ceb0d69.png") 0px 0px no-repeat;
+
+}
+
+
+
+
+.bg-map .region{
+  position: absolute;
+  top: 148px;
+  left: 1000px;
+}
+.bg-map .region1 ,.bg-map .region2 {
+  float: left;
+  width: 234px;
+  height: 47px;
+  margin-right: 80px;
+}
+.bg-map .region1 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("images/sprite-ddece5_ddece5e9.png") 0px -141px no-repeat;
+}
+.bg-map .region2 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("images/sprite-ddece5_ddece5e9.png") 0px -47px no-repeat;
+}
+.bg-map .region2:hover a{
+  background: url("images/sprite-ddece5_ddece5e9.png") 0px -94px no-repeat;
+}
+
+
+
+.bg-map .map-seleted{
+  position: absolute;
+  top: 216px;
+  left: 1000px;
+  cursor:pointer;
+
+}
+.bg-map .map-seleted1 .seleted1,
+.ranke-seleted ul{
+  width: 222px;
+  box-sizing: border-box;
+  border: 1px solid #6c625d;
+  background: #eee9df;
+  position: absolute;
+  left: 9px;
+  top: 31px;
+  display: none;
+}
+.bg-map .map-seleted1 ul li,
+.bg-map .map-seleted2 .seleted2 li,
+.ranke-seleted ul li
+{
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 20px;
+  color: #80796a;
+  box-sizing: border-box;
+  border-bottom: 1px solid #6c625d;
+  cursor: pointer;
+}
+.bg-map .map-seleted2 .seleted2{
+  width: 222px;
+  box-sizing: border-box;
+  border: 1px solid #6c625d;
+  background: #eee9df;
+  position: absolute;
+  margin-left: 9px;
+  top: 31px;
+  display: none;
+}
+
+
+
+.bg-map .map-seleted1 ,.bg-map .map-seleted2 {
+  float: left;
+  width: 241px;
+  height: 31px;
+  margin-right: 80px;
+
+  /*background-color: red;*/
+}
+.bg-map .map-seleted1 span,.bg-map .map-seleted2 span{
+  padding-left: 60px;
+  line-height: 31px;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("images/_select_1ceb0d69.png") 0px 0px no-repeat;
+}
+.appear ul li:hover{
+  background-color: dimgray;
+}
